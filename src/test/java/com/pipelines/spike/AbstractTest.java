@@ -16,7 +16,10 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = SpikeApplication.class)
+@SpringBootTest(
+  classes = SpikeApplication.class,
+  properties = "spring.profiles.active=test"
+)
 @WebAppConfiguration
 public abstract class AbstractTest {
   protected MockMvc mvc;
