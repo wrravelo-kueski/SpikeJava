@@ -1,0 +1,8 @@
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+spring.jpa.hibernate.ddl-auto=
+
+spring.flyway.enabled=
+spring.flyway.locations=
+spring.flyway.schemas=
