@@ -16,3 +16,9 @@ mvn install
 ```bash
 mvn spring-boot:run
 ```
+
+## Run tests
+
+```bash
+mvn test
+```
